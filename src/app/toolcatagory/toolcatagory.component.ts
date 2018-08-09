@@ -95,7 +95,7 @@ export class ToolcatagoryComponent implements OnInit {
 
     // })
 
-    this.http.get(this.apiRoot+'/api/tool_category_data/65/').subscribe(data =>{
+    this.http.get(this.apiRoot+'/api/tool_category_data/99/').subscribe(data =>{
         console.log(data);
         this._labListed2 = data as [any];
         if (this._labListed2.Tool_efficiency === false) {
